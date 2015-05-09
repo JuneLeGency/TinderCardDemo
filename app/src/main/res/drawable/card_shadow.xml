@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <!-- this shape is used as shadow -->
+            <padding
+                android:bottom="@dimen/card_shadowpadding"
+                android:left="@dimen/card_shadowpadding"
+                android:right="@dimen/card_shadowpadding"
+                android:top="@dimen/card_shadowpadding" />
+
+            <solid android:color="@color/cardshadow" />
+
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- this is for dialog frame -->
+            <corners android:radius="10dp" />
+
+            <stroke
+                android:width="2dp"
+                android:color="#ff272727" />
+
+            <gradient
+                android:angle="90"
+                android:centerColor="#ff6a6a6a"
+                android:endColor="#ffa7a7a7"
+                android:startColor="#ffa7a7a7"
+                android:type="linear" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cardshadow">#A0000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="wall_bg_start">#FFA0C7</color>
+    <color name="wall_bg_center">#FFC6DD</color>
+    <color name="wall_bg_end">#FFFFFF</color>
+
+    <color name="card_nickname_color">#FFF69D</color>
+    <color name="card_age_color">#FFF69D</color>
+
+
+    <color name="card_male_name_color">#B59CF8</color>
+    <color name="card_male_age_color">#94ADEC</color>
+
+    <color name="card_female_name_color">#FFF0A0</color>
+    <color name="card_female_age_color">#FFDDA0</color>
+
+    <color name="water">#296392</color>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- cards -->
+    <dimen name="card_width">300dp</dimen>
+    <dimen name="card_shadowpadding">8dp</dimen>
+
+    <!-- text-size -->
+    <dimen name="name_text">40sp</dimen>
+    <dimen name="name_age">30sp</dimen>
+
+</resources>

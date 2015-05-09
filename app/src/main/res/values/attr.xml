@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="card">
+        <attr name="avatar" format="reference" />
+
+        <attr name="vote" format="enum">
+            <enum name="like" value="0" />
+            <enum name="hate" value="1" />
+        </attr>
+
+        <attr name="layoutid" format="reference" />
+
+        <attr name="sex" format="enum">
+            <enum name="male" value="0" />
+            <enum name="female" value="1" />
+        </attr>
+
+        <attr name="malecard" format="reference" />
+
+        <attr name="femalecard" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="cardstyle">
+        <attr name="bg" format="reference" />
+        <attr name="name_color" format="reference" />
+        <attr name="age_color" format="reference" />
+    </declare-styleable>
+
+    <attr name="slideMenuStyle" format="reference" />
+
+    <declare-styleable name="SlideMenu_Layout">
+        <attr name="layout_role" format="enum">
+            <enum name="content" value="0" />
+            <enum name="primaryMenu" value="1" />
+            <enum name="secondaryMenu" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SlideMenu">
+        <attr name="primaryShadowWidth" format="dimension" />
+        <attr name="secondaryShadowWidth" format="dimension" />
+        <attr name="primaryShadowDrawable" format="reference" />
+        <attr name="secondaryShadowDrawable" format="reference" />
+        <attr name="edgeSlide" format="boolean" />
+        <attr name="edgeSlideWidth" format="dimension" />
+        <attr name="slideDirection" format="flags">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+        <attr name="interpolator" format="reference" />
+    </declare-styleable>
+
+    <attr name="wallbg" format="reference" />
+
+
+</resources>
